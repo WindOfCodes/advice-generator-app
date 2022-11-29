@@ -1,0 +1,2 @@
+
+const quote = document.querySelector()

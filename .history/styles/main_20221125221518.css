@@ -1,0 +1,45 @@
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+
+/* Mobile: 375px
+Desktop: 1440px */
+
+/* $lightCyan : hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%); */
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: hsl(218, 23%, 16%);
+  font-size: 28px;
+}
+
+.card {
+  background-color: hsl(217, 19%, 24%);
+  width: 40%;
+  min-height: 35%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.number {
+  text-transform: uppercase;
+  color: hsl(150, 100%, 66%);
+}
+
+.quote {
+  color: white;
+}

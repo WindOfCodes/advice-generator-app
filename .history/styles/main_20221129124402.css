@@ -1,0 +1,85 @@
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+
+/* Mobile: 375px
+Desktop: 1440px */
+
+/* $lightCyan : hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%); */
+
+import@ 
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: hsl(218, 23%, 16%);
+  font-size: 28px;
+}
+
+.card {
+  background-color: hsl(217, 19%, 24%);
+  width: 40%;
+  min-height: 35%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.number {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.25rem;
+  color: hsl(150, 100%, 66%);
+  margin: 2rem 0;
+}
+
+.quote {
+  color: white;
+  max-width: 80%;
+  text-align: center;
+}
+
+.line {
+  margin: 2.5rem 0 4rem 0;
+  width: 80%;
+}
+
+.dice {
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  padding: 20px;
+  position: absolute;
+  top: 92%;
+}
+
+.dice:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 30px 1px hsla(150, 100%, 66%, 1);
+  -moz-box-shadow: 0px 0px 30px 1px hsla(150, 100%, 66%, 1);
+  box-shadow: 0px 0px 30px 1px hsla(150, 100%, 66%, 1);
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    width: 90%;
+  }
+}
